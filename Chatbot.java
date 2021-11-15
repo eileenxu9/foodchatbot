@@ -141,7 +141,7 @@ public class Chatbot
 			response = "Dinner's on me (☞ﾟ∀ﾟ)☞";
 		}
 
-    else if (statement.length() < 10)
+    else if (statement.length() < 5)
 		{
 			response = getClarification(statement);
 		}
